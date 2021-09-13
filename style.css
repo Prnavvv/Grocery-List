@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100vw;
+    background-color: #15031B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grocery-list{
+    margin-top: 10px;
+    width: 40%;
+    min-height: 100vh;
+    height: auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #A10856;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#input-item{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 0;
+    width: 70%;
+    height: 50px;
+    font-size: 40px;
+    background: transparent;
+    border: transparent;
+    border-bottom: 2px solid white;
+    color: white;
+    outline: 0;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#add-item{
+    width: 80px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 0;
+    height: 40px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    outline: 0;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    
+}
+
+#items{
+    width: 100%;
+    height: auto;
+}
+
+#items p{
+    height: 45px;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    margin-left: 100px;
+    border-bottom: 2px solid white;
+    font-family: 'Kaushan Script', cursive;
+
+}
+
+@media(max-width:480px){
+    .grocery-list{
+        width: 100vw;
+    }
+}
